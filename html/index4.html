@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
-    <script src="../js/index4.js"></script>
+    <script src="../js/index1.js"></script>
 </head>
 <body>
     <header>
@@ -19,19 +19,23 @@
     </header>
     <nav>
         <ol>
-            <li>que es</li>
-            <li>Ejemplos</li>
-            <li>Qué es?</li>
-            <li>CONTACTO</li>
+            <li onclick="materia()">Concepto </li>
+            <li onclick="tipoDeMateria()">tipos de materia</li>
+            <li onclick="video()"> Video</li>
+            <li onclick="contacto()">CONTACTO</li>
         </ol>
     </nav>
     <div class="contacto">
-       <h1>Tienes Aportes o Sugerencias? <br>Dejanos tus datos </h1>
+       
         <form>
+            <h1>Tienes Aportes o Sugerencias? <br>Dejanos tus datos </h1>
+            <div class="contenedor">
             <div class="labels">
-                <label for="nombre">Nombre(s):</label>
-                <label for="apellido">Apellido(s)</label>
-                <label for="email">Email</label>
+                <label for="nombre" class="flab" id="labnom">Nombre(s): </label>
+                <label for="apellido" class="flab" id="labape">Apellido(s): </label>
+                <label for="email" id="labem" class="flab">Email: </label>
+                <label for="pais" class="flab" id="labpa">De donde eres?: </label>
+                <label for="genero" class="flab" id="labgen">Genero: </label>
             </div>
             <div class="inputs">
                 <input type="text" name="nombre" id="nombre" class="finpt" placeholder="Escribe aqui tu(s) nombre(s)"><br>
@@ -39,9 +43,26 @@
             <input type="text" name="apellido" id="apelido" class="finpt" placeholder="Escribe aqui tu(s) apellido(s)"><br>
            
             <input type="email" name="email" id="email" class="finpt" placeholder="Escribe aqui tu email"><br>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Canada">Canada</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Peru">Peru</option>
+                <option value="USA">USA</option>
+            </select><br>
+            <label for="genero" class="labsel">Hombre</label>
+            <input type="radio" name="genero" id="Hombre" value="Hombre">
+            <label for="genero"class="labsel">Mujer</label>
+            <input type="radio" name="genero" id="Mujer" value="Mujer" checked>
+            <label for="genero"class="labsel">Otro</label>
+            <input type="radio" name="genero" id="Otro" value="Otro"><br>
+            
             </div>
             
-
+            </div>
+            <input type="submit" id="submit" value="ENVIAR">
         </form>
     </div>
     <footer>
