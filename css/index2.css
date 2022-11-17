@@ -80,6 +80,35 @@ li:hover{
     background: rgba(127, 36, 213, 0.694)
 }
 
+.contenedor{
+    border: 4px solid white;
+    padding: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(102, 13, 185, 0.712);
+    border-radius: 50px;
+}
+
+
+h1{
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+}
+figure img {
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+}
 footer{
     background-color: black;
     color: white;
