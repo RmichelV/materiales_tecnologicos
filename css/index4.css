@@ -1,0 +1,118 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+body{
+    border: 1px red solid;
+    margin: 0;
+    margin-left:270px;
+    margin-right:270px;
+    height: 100%;
+}
+header{
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.p1{
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(19, 16, 93);
+    font-weight: bold;
+    margin-left: 30px;
+}
+.p1:hover{
+    font-size: 100px;
+}
+
+nav{
+    
+    color: white;
+    text-transform: uppercase;
+    height: 70px;
+    width: 100%;
+    background: rgba(127, 36, 213, 0.583);
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+ol{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    border: 1px red solid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover{
+    font-size: 40px;
+    background: rgba(127, 36, 213, 0.694)
+}
+
+.contacto{
+    height: 50vh;
+    background-color: rgb(220, 31, 31);
+    margin: 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+form{
+    display: flex;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+form .finpt{
+    width: 300px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.foot{
+    margin: 0;
+}
